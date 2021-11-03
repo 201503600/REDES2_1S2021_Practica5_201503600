@@ -64,7 +64,7 @@ Para exponer la pagina web se utilizo un servidor nginx. Solamente la primer ins
 ### **VPC**
 Para poder implementar la red en AWS se utilizó el servicio de Amazon VPC. En el panel de AWS se hace la búsqueda de `VPC` y se selecciona el servicio. En la nueva ventana mostrada dar click al boton `Create VPC`. En el formulario a llenar basta con ingresar un nombre para la red e ingresar el rango de direcciones permitidas, tal como se muestra en la siguiente imagen.
 
-![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/tree/main/capturas/creacion_vpc.png)
+![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/creacion_vpc.png)
 
 Por ultimo de click en `Create VPC` y esta sera creada. Una vez creada la VPC se visualizara la siguiente ventana
 
