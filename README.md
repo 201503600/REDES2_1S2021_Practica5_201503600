@@ -159,7 +159,7 @@ Aparecera la siguiente vista y en ella se deben seleccionar la subred a la que p
 
 ### Acceso publico a la subred
 
-Para dar acceso público a una subred, en el panel derecho seleccionar `Your VPCs` y  seleccionar la vpc creada anteriormente. En el panel inferior que aparece ir a la pestaña `Routes` y dar click al boton `Edit routes`.
+Para dar acceso público a una subred, en el panel derecho seleccionar `Route Tables` y  seleccionar la subred que tendrá acceso público. En el panel inferior que aparece ir a la pestaña `Routes` y dar click al boton `Edit routes`.
 
 ![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/acceso_internet6.png)
 
