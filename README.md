@@ -95,22 +95,6 @@ En la vista nueva que se muestra, dar click a la opcion Actions > Attach to VPC.
 
 ![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/acceso_internet5.png)
 
-En la vista que aparece ir a la pestaña `Routes` y dar click al boton `Edit routes`.
-
-![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/acceso_internet6.png)
-
-En la ventana se muestra la tabla de ruteo asignada a la VPC, se para que esta tenga acceso a internet dar click al boton `Add route`.
-
-![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/acceso_internet7.png)
-
-En el destino asignar `0.0.0.0/0` lo cual indica que se podra comunicar a cualquier direccion ip con cualquier mascara de subred. En target seleccionar la opcion `Internet Gateway`.
-
-![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/acceso_internet8.png)
-
-Posterior a ello, seleccionar la gateway creada anteriormente y dar click en `Save`.
-
-![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/acceso_internet9.png)
-
 ### **Subnets**
 Seguidamente deben crearse las subredes (publica y privada). Para poder crear una nueva subred debe ir al panel izquierdo (Panel de VPC) y seleccionar `Subnets`
 
@@ -173,6 +157,23 @@ Aparecera la siguiente vista y en ella se deben seleccionar la subred a la que p
 
 ![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/creacion_route_table6.png)
 
+### Acceso publico a la subred
+
+Para dar acceso público a una subred, en el panel derecho seleccionar `Your VPCs` y  seleccionar la vpc creada anteriormente. En el panel inferior que aparece ir a la pestaña `Routes` y dar click al boton `Edit routes`.
+
+![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/acceso_internet6.png)
+
+En la ventana se muestra la tabla de ruteo asignada a la VPC, se para que esta tenga acceso a internet dar click al boton `Add route`.
+
+![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/acceso_internet7.png)
+
+En el destino asignar `0.0.0.0/0` lo cual indica que se podra comunicar a cualquier direccion ip con cualquier mascara de subred. En target seleccionar la opcion `Internet Gateway`.
+
+![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/acceso_internet8.png)
+
+Posterior a ello, seleccionar la gateway creada anteriormente y dar click en `Save`.
+
+![](https://github.com/201503600/REDES2_1S2021_Practica5_201503600/blob/main/capturas/acceso_internet9.png)
 
 ### **EC2**
 
